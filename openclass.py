@@ -4,25 +4,11 @@ import time
 
 keyboard = Controller()
 
-urlGeneral = 'https://classroom.google.com/u/2/h'
-urlMath = "https://classroom.google.com/u/2/c/MTE5MTA1OTI4NjU3"
-urlMeetMaths = "https://meet.google.com/lookup/hpxjeioncf?authuser=2&amp;hs=179"
-urlPhysics = "https://classroom.google.com/u/2/c/MTIyMDI1NDgxMTI3"
-urlPhysicsMeet = "https://meet.google.com/lookup/a73gnfjcrd?authuser=2&hs=179"
-urlChemistry = "https://classroom.google.com/u/2/c/MTIxODkzNzk1NzAy"
-urlChemistryMeet = "https://meet.google.com/lookup/hrwwobasn7?authuser=2&amp;hs=179"
-urlBiology = "https://classroom.google.com/u/2/c/MTIyMTY5ODA3Nzc1"
-urlBiologyMeet = "https://meet.google.com/lookup/hzc6ycutnc?authuser=2&hs=179"
-urlICT = "https://classroom.google.com/u/2/c/MTQxNzIwMjE2NTA1"
-urlICTMeet = "https://meet.google.com/lookup/fvfxktxslk?authuser=2&hs=179"
-urlEnglishESL = "https://classroom.google.com/u/2/c/MTIxODQ3NzQ1ODY5"
-urlEnglishESLMeet = "https://meet.google.com/lookup/ga5oes462j?authuser=2&hs=179"
-urlEnglishFLE = "https://classroom.google.com/u/2/c/MTIxODQ3NzQ1ODky"
-urlEnglishFLEMeet = "https://meet.google.com/lookup/asdtvllnil?authuser=2&hs=179"
-urlPrincipalMaamMeet = "https://meet/google.com/xhr-ibprt-irt?authuser=2"
+
+urlGeneral = 'Give the variables along with the google meet links'
 
 webbrowser.register('chrome', None,
-                    webbrowser.BackgroundBrowser("C://Program Files (x86)//Google//Chrome//Application//chrome.exe"))
+                    webbrowser.BackgroundBrowser("/path/to/chrome.exe"))
 
 def automatefull(Meetingurl, sirormaam):
 
